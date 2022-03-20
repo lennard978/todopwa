@@ -2,7 +2,7 @@
   "name": "todopwa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lennard978.github.io/newTodo",
+  "homepage": "http://lennard978.github.io/todopwa",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^11.2.7",
