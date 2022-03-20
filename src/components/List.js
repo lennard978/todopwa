@@ -7,10 +7,11 @@ export const List = ({ items, setItems, deleteItem }) => {
         <article>
           <ul className="bg-gray-700 mx-5 rounded-lg mt-10 sm:max-w-xl sm:mx-auto">
             {items.map(({ id, title }) => (
-              <ul className="todo-list flex items-center px-5  justify-between  border-b border-gray-600">
-                <li key={id} className=" text-white py-3 tracking-wider">
-                  {title}
-                </li>
+              <ul
+                key={id}
+                className="todo-list flex items-center px-5  justify-between  border-b border-gray-600"
+              >
+                <li className=" text-white py-3 tracking-wider">{title}</li>
                 <button onClick={() => deleteItem(id)} className="text-xl">
                   <IoClose className="text-red-400" />
                 </button>

@@ -1,10 +1,10 @@
-import aida from "../back.jpg";
+import back from "../back.jpg";
 
 const Hero = () => {
   return (
     <>
       <section className="hero">
-        <img src={aida} alt="Aida ship in Hamburg" />
+        <img src={back} alt="Dark color of universe" />
       </section>
     </>
   );
