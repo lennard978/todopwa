@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/newTodo/static/css/main.b1c86751.css",
-    "main.js": "/newTodo/static/js/main.36580712.js",
-    "static/js/377.3357b81f.chunk.js": "/newTodo/static/js/377.3357b81f.chunk.js",
-    "static/media/back.jpg": "/newTodo/static/media/back.dbfc19c605ce7fa7af16.jpg",
-    "service-worker.js": "/newTodo/service-worker.js",
-    "index.html": "/newTodo/index.html",
-    "main.b1c86751.css.map": "/newTodo/static/css/main.b1c86751.css.map",
-    "main.36580712.js.map": "/newTodo/static/js/main.36580712.js.map",
-    "377.3357b81f.chunk.js.map": "/newTodo/static/js/377.3357b81f.chunk.js.map"
+    "main.css": "/todopwa/static/css/main.b1c86751.css",
+    "main.js": "/todopwa/static/js/main.f018eeb0.js",
+    "static/js/377.3357b81f.chunk.js": "/todopwa/static/js/377.3357b81f.chunk.js",
+    "static/media/back.jpg": "/todopwa/static/media/back.dbfc19c605ce7fa7af16.jpg",
+    "service-worker.js": "/todopwa/service-worker.js",
+    "index.html": "/todopwa/index.html",
+    "main.b1c86751.css.map": "/todopwa/static/css/main.b1c86751.css.map",
+    "main.f018eeb0.js.map": "/todopwa/static/js/main.f018eeb0.js.map",
+    "377.3357b81f.chunk.js.map": "/todopwa/static/js/377.3357b81f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1c86751.css",
-    "static/js/main.36580712.js"
+    "static/js/main.f018eeb0.js"
   ]
 }
