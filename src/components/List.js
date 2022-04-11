@@ -1,18 +1,30 @@
-import React from "react";
 import { IoClose } from "react-icons/io5";
-export const List = ({ items, setItems, deleteItem }) => {
+export const List = ({ items, setItems, deleteItem, checkedItem }) => {
   return (
     <>
       {items.length !== 0 && (
         <article>
           <ul className="bg-gray-700 mx-5 rounded-lg mt-10 sm:max-w-xl sm:mx-auto">
-            {items.map(({ id, title }) => (
+            {items.map((item) => (
               <ul
-                key={id}
-                className="todo-list flex items-center px-5  justify-between  border-b border-gray-600"
+                key={item.id}
+                className="todo-list flex items-center px-5 justify-between  border-b border-gray-600"
               >
-                <li className=" text-white py-3 tracking-wider">{title}</li>
-                <button onClick={() => deleteItem(id)} className="text-xl">
+                <input
+                  onChange={() => checkedItem(item.id)}
+                  type="checkbox"
+                  checked={item.checked}
+                />
+                <label
+                  onClick={() => checkedItem(item.id)}
+                  style={
+                    item.checked ? { textDecoration: "line-through" } : null
+                  }
+                  className="text-white py-3 tracking-wider initial uppercase"
+                >
+                  {item.title}
+                </label>
+                <button onClick={() => deleteItem(item.id)} className="text-xl">
                   <IoClose className="text-red-400" />
                 </button>
               </ul>

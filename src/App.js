@@ -20,6 +20,7 @@ const App = () => {
     e.preventDefault();
     const newItems = {
       id: uuidv4(),
+      checked: false,
       title: text,
     };
     setItems([newItems, ...items]);
@@ -28,6 +29,13 @@ const App = () => {
 
   const deleteItem = (id) => {
     setItems(items.filter((item) => item.id !== id));
+  };
+
+  const checkedItem = (id) => {
+    const checkedList = items.map((item) =>
+      item.id === id ? { ...item, checked: !item.checked } : item
+    );
+    setItems(checkedList);
   };
 
   useEffect(() => {
@@ -45,7 +53,7 @@ const App = () => {
           <input
             type="text"
             name="text"
-            placeholder="Enter youre items"
+            placeholder="Enter your'e items"
             className="py-2 px-5 rounded-lg bg-gray-700 text-white tracking-wide"
             autoComplete="off"
             value={text}
@@ -53,7 +61,12 @@ const App = () => {
           />
         </form>
 
-        <List items={items} setItems={setItems} deleteItem={deleteItem} />
+        <List
+          items={items}
+          setItems={setItems}
+          deleteItem={deleteItem}
+          checkedItem={checkedItem}
+        />
       </main>
     </>
   );
