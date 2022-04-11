@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/todopwa/static/css/main.b1c86751.css",
-    "main.js": "/todopwa/static/js/main.fb842ea5.js",
+    "main.css": "/todopwa/static/css/main.4513a5c4.css",
+    "main.js": "/todopwa/static/js/main.865308fa.js",
     "static/js/377.3357b81f.chunk.js": "/todopwa/static/js/377.3357b81f.chunk.js",
     "static/media/back.jpg": "/todopwa/static/media/back.dbfc19c605ce7fa7af16.jpg",
     "service-worker.js": "/todopwa/service-worker.js",
     "index.html": "/todopwa/index.html",
-    "main.b1c86751.css.map": "/todopwa/static/css/main.b1c86751.css.map",
-    "main.fb842ea5.js.map": "/todopwa/static/js/main.fb842ea5.js.map",
+    "main.4513a5c4.css.map": "/todopwa/static/css/main.4513a5c4.css.map",
+    "main.865308fa.js.map": "/todopwa/static/js/main.865308fa.js.map",
     "377.3357b81f.chunk.js.map": "/todopwa/static/js/377.3357b81f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b1c86751.css",
-    "static/js/main.fb842ea5.js"
+    "static/css/main.4513a5c4.css",
+    "static/js/main.865308fa.js"
   ]
 }
